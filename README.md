@@ -1,4 +1,4 @@
-# Common Crawl Preprocess (Script ver.)
+# Common Crawl Extraction (Script ver.)
 
 https://colab.research.google.com/drive/1Gq8HQ0iyASH5iOAkosclJEQTwYJvYRmy?usp=sharing&authuser=1 のスクリプト版
 

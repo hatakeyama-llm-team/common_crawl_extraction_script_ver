@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "common-crawl-preprocess"
+name = "common-crawl-extraction"
 version = "0.1.0"
 description = ""
 authors = ["Kaito Sugimoto <hellorusk1998@gmail.com>"]
 readme = "README.md"
-packages = [{include = "common_crawl_preprocess"}]
+packages = [{include = "common_crawl_extraction"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
