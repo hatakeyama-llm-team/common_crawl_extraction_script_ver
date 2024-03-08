@@ -6,3 +6,4 @@ data/warc/*
 !data/warc/.gitkeep
 process/*
 submit/*
+*.out

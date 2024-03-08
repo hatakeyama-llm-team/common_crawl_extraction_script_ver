@@ -209,8 +209,6 @@ def curation(batch_number, submit_dir="/content/submit", is_debug=False):
     shutil.make_archive(f'{submit_dir}/{batch_number}',
                         format='zip', root_dir=f"process/batch{batch_number}")
 
-    shutil.rmtree("process/")
-
 
 if __name__ == "__main__":
     base_url = "https://data.commoncrawl.org/"
