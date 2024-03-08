@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "common-crawl-preprocess"
+version = "0.1.0"
+description = ""
+authors = ["Kaito Sugimoto <hellorusk1998@gmail.com>"]
+readme = "README.md"
+packages = [{include = "common_crawl_preprocess"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+warcio = "^1.7.4"
+Jupyter-Beeper = "^1.0.3"
+requests = "^2.31.0"
+tqdm = "^4.66.2"
+beautifulsoup4 = "^4.12.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

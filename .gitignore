@@ -1,0 +1,8 @@
+data/gz/*
+!data/gz/.gitkeep
+data/path_list/*
+!data/path_list/.gitkeep
+data/warc/*
+!data/warc/.gitkeep
+process/*
+submit/*
